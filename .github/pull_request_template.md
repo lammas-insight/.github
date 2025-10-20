@@ -1,14 +1,3 @@
-<!-- 
-🎯 Choose a template by clicking one of the links below:
-
-- 📄 General PR: ?template=general_pr.md
-- 💡 New Feature: ?template=new_feature.md
-- 🐛 Bug Fix: ?template=bug_fix.md
-- 🧠 Prompt Change: ?template=prompt_change.md
-
-After clicking, delete this message and fill out the template.
--->
-
 ---
 name: "📄 General PR"
 about: "Submit a general pull request"
@@ -54,16 +43,6 @@ Select all that apply:
 
 ---
 
-## Changes Made
-
-List the main changes made in this PR:
-
-- 
-- 
-- 
-
----
-
 ## Testing
 
 Describe how you tested these changes:
@@ -75,9 +54,13 @@ Describe how you tested these changes:
 
 ---
 
-## Screenshots / Videos (if applicable)
+## Documentation
 
-Add screenshots or videos to help explain your changes.
+- [ ] Code comments added/updated
+- [ ] README updated (if applicable)
+- [ ] CHANGELOG updated (if applicable)
+- [ ] API documentation updated (if applicable)
+- [ ] User guide updated (if applicable)
 
 ---
 
