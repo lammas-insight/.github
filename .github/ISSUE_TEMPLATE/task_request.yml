@@ -1,14 +1,14 @@
-name: "💡 Feature Request"
-description: "Suggest a new feature for the system"
-title: "[FEAT] "
-labels: ["enhancement"]
+name: "📝 Task Request"
+description: "Suggest a new task for the system"
+title: "[TASK] "
+labels: []
 body:
   - type: textarea
-    id: feature-description
+    id: task-description
     attributes:
-      label: Feature Description
-      description: Provide a clear and concise description of the feature to implement.
-      placeholder: "Feature to implement..."
+      label: Task Description
+      description: Provide a clear and concise description of the task to implement.
+      placeholder: "Task to implement..."
     validations:
       required: true
 

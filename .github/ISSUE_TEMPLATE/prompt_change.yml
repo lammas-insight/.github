@@ -1,37 +1,14 @@
 name: "🧠 Prompt Change Request"
 description: "Request or describe a change to a prompt or prompt-related logic"
-title: "[PROMPT] "
+title: "[REFACTOR] "
 labels: ["enhancement"]
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for suggesting a prompt improvement!
-
   - type: textarea
-    id: prompt-location
+    id: prompt-description
     attributes:
-      label: Prompt Location
+      label: Prompt Description
       description: Which prompt or prompt-related component needs to be changed?
       placeholder: "e.g., system prompt for chat assistant, code generation prompt, etc."
-    validations:
-      required: true
-
-  - type: textarea
-    id: current-behavior
-    attributes:
-      label: Current Behavior
-      description: Describe the current behavior of the prompt
-      placeholder: "Currently, the prompt produces..."
-    validations:
-      required: true
-
-  - type: textarea
-    id: desired-behavior
-    attributes:
-      label: Desired Behavior
-      description: Describe what you'd like the prompt to do instead
-      placeholder: "I would like the prompt to..."
     validations:
       required: true
 
@@ -39,10 +16,10 @@ body:
     id: proposed-changes
     attributes:
       label: Proposed Changes
-      description: If you have specific wording or structural changes in mind, describe them here
-      placeholder: "I suggest changing the prompt to include..."
+      description: The changes to be made in the prompt
+      placeholder: "- [ ] Include rules of BI-RADS 6 to the prompt..."
     validations:
-      required: false
+      required: true
 
   - type: textarea
     id: examples

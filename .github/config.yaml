@@ -16,6 +16,11 @@ issue_templates:
     file: issue_template/prompt_change.yml
     labels: ["enhancement"]
 
+  - name: "📝 Task Request"
+    description: "Suggest a new task for the system"
+    file: issue_template/task_request.yml
+    labels: []
+
 pull_request_templates:
   - name: "📄 General PR"
     description: "Submit a general pull request"
