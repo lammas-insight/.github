@@ -1,11 +1,3 @@
----
-name: "📄 General PR"
-about: "Submit a general pull request"
-title: ""
-labels: []
-assignees: []
----
-
 ## Description
 
 Provide a brief description of what this PR does and why.
