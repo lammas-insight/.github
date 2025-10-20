@@ -20,20 +20,3 @@ issue_templates:
     description: "Suggest a new task for the system"
     file: issue_template/task_request.yml
     labels: []
-
-pull_request_templates:
-  - name: "📄 General PR"
-    description: "Submit a general pull request"
-    file: pull_request_template/general_pr.md
-
-  - name: "💡 New Feature"
-    description: "Submit a PR linked to a feature request"
-    file: pull_request_template/new_feature.md
-
-  - name: "🐛 Bug Fix"
-    description: "Submit a PR linked to a bug report"
-    file: pull_request_template/bug_fix.md
-  
-  - name: "🧠 Prompt Change"
-    description: "Submit a PR linked to a prompt change request"
-    file: pull_request_template/prompt_change.md
