@@ -1,0 +1,34 @@
+blank_issues_enabled: false
+
+issue_templates:
+  - name: "💡 Feature Request"
+    description: "Suggest a new feature for the system"
+    file: issue_template/feature_request.yml
+    labels: ["enhancement"]
+
+  - name: "🐛 Bug Report"
+    description: "Report a bug in the logic"
+    file: issue_template/bug_report.yml
+    labels: ["bug"]
+
+  - name: "🧠 Prompt Change Request"
+    description: "Request or describe a change to a prompt or prompt-related logic"
+    file: issue_template/prompt_change.yml
+    labels: ["enhancement"]
+
+pull_request_templates:
+  - name: "📄 General PR"
+    description: "Submit a general pull request"
+    file: pull_request_template/general_pr.md
+
+  - name: "💡 New Feature"
+    description: "Submit a PR linked to a feature request"
+    file: pull_request_template/new_feature.md
+
+  - name: "🐛 Bug Fix"
+    description: "Submit a PR linked to a bug report"
+    file: pull_request_template/bug_fix.md
+  
+  - name: "🧠 Prompt Change"
+    description: "Submit a PR linked to a prompt change request"
+    file: pull_request_template/prompt_change.md

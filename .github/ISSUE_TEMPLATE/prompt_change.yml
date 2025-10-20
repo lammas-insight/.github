@@ -1,0 +1,64 @@
+name: "🧠 Prompt Change Request"
+description: "Request or describe a change to a prompt or prompt-related logic"
+title: "[PROMPT] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for suggesting a prompt improvement!
+
+  - type: textarea
+    id: prompt-location
+    attributes:
+      label: Prompt Location
+      description: Which prompt or prompt-related component needs to be changed?
+      placeholder: "e.g., system prompt for chat assistant, code generation prompt, etc."
+    validations:
+      required: true
+
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current Behavior
+      description: Describe the current behavior of the prompt
+      placeholder: "Currently, the prompt produces..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: desired-behavior
+    attributes:
+      label: Desired Behavior
+      description: Describe what you'd like the prompt to do instead
+      placeholder: "I would like the prompt to..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed-changes
+    attributes:
+      label: Proposed Changes
+      description: If you have specific wording or structural changes in mind, describe them here
+      placeholder: "I suggest changing the prompt to include..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: examples
+    attributes:
+      label: Examples
+      description: Provide examples of inputs and expected outputs if applicable
+      placeholder: |
+        Input: ...
+        Expected output: ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Add any other context about the prompt change request here
+    validations:
+      required: false

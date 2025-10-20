@@ -1,9 +1,0 @@
-blank_issues_enabled: true
-
-issue_template:
-  - name: "New Task"
-    description: "New developlment task or assignment"
-    labels: ["enhancement"]
-  - name: "Bug Report"
-    description: "Report a bug or unexpected behavior"
-    labels: ["bug"]
